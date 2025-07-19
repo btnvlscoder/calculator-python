@@ -4,21 +4,21 @@ while True:
     limpiar_pantalla()
     menu_principal()
     try:
-        opc=int(input("\nSelecciona la operacion que desea realizar: "))
+        opc=pedir_entero("\nSelecciona la operacion que desea realizar: ")
         if opc == 1:
             sumar()
-            input("\nPresiona una tecla para volver al menu principal.")
+            pausa()
         elif opc == 2:
             restar()
-            input("\nPresiona una tecla para volver al menu principal.")
+            pausa()
             
         elif opc == 3:
             multiplicar()
-            input("\nPresiona una tecla para volver al menu principal.")
+            pausa()
             
         elif opc == 4:
             dividir()
-            input("\nPresiona una tecla para volver al menu principal.")
+            pausa()
             
         elif opc == 5:
             limpiar_pantalla()
