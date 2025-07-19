@@ -1,7 +1,12 @@
 import os
+import time
+
 
 def limpiar_pantalla():
     os.system("cls")
+    
+def sleep():
+    time.sleep(2)
     
 def menu_principal():
     limpiar_pantalla()
@@ -30,3 +35,21 @@ def restar():
     resultado = (n1 - n2)
     limpiar_pantalla()
     print(f"\nLa suma de {n1} - {n2} es {resultado}.")
+    
+def multiplicar():
+    limpiar_pantalla()
+    n1=int(input("\nIngresa el numero que deseas multiplicar: "))
+    n2=int(input(f"Ingresa el numero que deseas multiplicar con {n1}: "))
+
+    resultado = (n1 * n2)
+    limpiar_pantalla()
+    print(f"\nLa suma de {n1} * {n2} es {resultado}.")
+    
+def dividir():
+    limpiar_pantalla()
+    n1=int(input("\nIngresa el numero que deseas dividir: "))
+    n2=int(input(f"Ingresa el numero que deseas dividir con {n1}: "))
+
+    resultado = (n1 / n2)
+    limpiar_pantalla()
+    print(f"\nLa suma de {n1} / {n2} es {resultado}.")

@@ -11,5 +11,20 @@ while True:
         elif opc == 2:
             restar()
             input("\nPresiona una tecla para volver al menu principal.")
+            
+        elif opc == 3:
+            multiplicar()
+            input("\nPresiona una tecla para volver al menu principal.")
+            
+        elif opc == 4:
+            dividir()
+            input("\nPresiona una tecla para volver al menu principal.")
+            
+        elif opc == 5:
+            limpiar_pantalla()
+            print("Saliendo del sistema...")
+            input("Presiona para salir")
+            sleep()
+            break
     except:
         print("Opcion ingresada no existe")
