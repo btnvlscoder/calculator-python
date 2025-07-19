@@ -1,8 +1,8 @@
-# 🧮 Calculadora de Consola en Python
+# Calculadora de Consola en Python
 
-Una calculadora básica por consola usando Python, con operaciones: suma, resta, multiplicación y división.
+Una calculadora basica por consola usando Python, con operaciones: suma, resta, multiplicacion y division.
 
-## 🚀 Cómo usar
+## Como usar
 
 ```bash
 python main.py
